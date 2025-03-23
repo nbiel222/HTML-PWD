@@ -1,4 +1,4 @@
-# <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="id"
 <head>
     <meta charset="UTF-8">
@@ -14,6 +14,7 @@
         <a href="#tentang">Tentang</a> |
         <a href="#kursus">Kursus</a> |
         <a href="#kontak">Kontak</a> |
+        <a href="#form Pendaftaran Siswa Baru">Form Pendaftaran Siswa Baru</a>
     </nav>
  <section id="tentang">
         <h2>Tentang Halaman Ini</h2>
@@ -38,7 +39,40 @@
         <td>6 Minggu</td>
     </tr>
     </table>
-</section>
+</section> 
+<br>
+<form>
+    <label for="nama Lengkap">Nama Lengkap:</label><br>
+    <input type="text" id="nama Lengkap=" name="nama Lengkap required">
+    <br>
+    <label for="tanggal_lahir">Tanggal Lahir:</label>
+    <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label>Jenis Kelamin:</label>
+    <input type="radio" id="Laki-laki" name="jenis_kelamin" value="Laki-laki">
+    <label for="laki-laki">Laki-laki</label>
+    <input type="radio" id="Perempuan" name="jenis_kelamin" value="Perempuan">
+    <label for="Perempuan">Perempuan</label>
+    
+    <fieldset>
+        <legend>Minat:</legend>
+        <input type="checkbox" id"olahraga" name="minat" value="Olahraga">
+        <label for="olahraga">Olahraga</label>
+        <input type="checkbox" id="seni" name="minat" value="Seni">
+        <label for="seni">Seni</label>
+    </fieldset>
+
+    <label for="asal_sekolah">Asal Sekolah:</label><br>
+    <input id="asal_sekolah" name="asal_sekolah" required><br>
+    
+
+    <button type="Submit">Daftar</button>
+</form>
+    
+<p>
     <footer>
         <p>&copy; 2025 oleh nabiel. </p>
     </footer>
